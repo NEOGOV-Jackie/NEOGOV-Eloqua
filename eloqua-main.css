@@ -25,13 +25,27 @@ font-display:fallback;font-style:italic;font-weight:400;font-stretch:normal;
 }
 
 /* --- default overrides --- */
-.elq-text-cell body, h1, h2, h3, h4, h5, h6, a, p, span, input, form, label, button {
+.elq-text-cell body, 
+.elq-text-cell h1, 
+.elq-text-cell h2, 
+.elq-text-cell h3, 
+.elq-text-cell h4, 
+.elq-text-cellh5, 
+.elq-text-cell h6, 
+.elq-text-cell a, 
+.elq-text-cell p, 
+.elq-text-cell span, 
+.elq-text-cell input, 
+.elq-text-cell form, 
+.elq-text-cell label, 
+.elq-text-cell button {
 font-family: "proxima-nova", helvetica, arial, sans-serif !important;
 font-weight: 400;
 font-style: normal !important;
   -webkit-font-smoothing: antialiased;
 }
-.elq-text-cell body, p {
+.elq-text-cell body, 
+.elq-text-cell p {
   color: #323232;
   font-family: "proxima-nova",Helvetica,Arial,sans-serif !important;
   font-size: 16px !important;
@@ -49,9 +63,14 @@ a {
   color: #3aaecd;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.elq-text-cell h1, 
+.elq-text-cell h2, 
+.elq-text-cell h3, 
+.elq-text-cell h4, 
+.elq-text-cell h5, 
+.elq-text-cell h6 {
     color: ##323232;
-    font-family: "proxima-nova",Helvetica,Arial,sans-serif;
+    font-family: "proxima-nova",Helvetica,Arial,sans-serif !important;
     letter-spacing: -0.5px;
     margin: 0;
 }
