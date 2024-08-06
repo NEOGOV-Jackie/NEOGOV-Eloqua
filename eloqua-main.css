@@ -155,7 +155,24 @@ a {
   border: 1px solid #3aaecd !important;
   color: #3aaecd !important;
 }
-
+.power-button {
+  width: auto !important; 
+  font-size: 16px;
+  font-weight: 800 !important;
+  text-align: center !important;
+  margin: 0!important;
+  color: #fff !important;
+  background-color: #196fb3 !important;
+  border: 1px solid #196fb3 !important;
+  border-radius: 6px;
+  padding: 10px 15px !important;
+  transition: background-color 0.3 ease, color 0.3 ease, border-color 0.3 ease;
+}
+.power-button:hover{
+  background-color: #fff !important;
+  border: 1px solid #196FB3 !important;
+  color: #196FB3 !important;
+}
 
 /* --- form styling --- */
 .elq-form .row {
@@ -203,6 +220,23 @@ a {
   background-color: #fff !important;
   border-color: #3b6379 !important;
   color: #3b6379 !important;
+}
+.power-submit-button-style {
+  margin: 20px 0 10px 0!important;
+  color: #fff !important;
+  background-color: #1580CE !important;
+  border: 4px solid #fff !important;
+  border-radius: 6px;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  padding: 5 10px !important;
+  transition: background-color 0.3 ease, color 0.3 ease, border-color 0.3 ease;
+}
+.power-submit-button-style:hover {
+  background-color: #fff !important;
+  border-color: #1580CE !important;
+  color: #1580CE !important;
 }
 
 
