@@ -25,18 +25,16 @@ font-display:fallback;font-style:italic;font-weight:400;font-stretch:normal;
 }
 
 /* --- default overrides --- */
-html {font-size: 16px !important;}
-    
-html, body, h1, h2, h3, h4, h5, h6, a, p, span, input, form, label, button {
+.elq-text-cell body, h1, h2, h3, h4, h5, h6, a, p, span, input, form, label, button {
 font-family: "proxima-nova", helvetica, arial, sans-serif !important;
 font-weight: 400;
 font-style: normal !important;
   -webkit-font-smoothing: antialiased;
 }
-body, p {
+.elq-text-cell body, p {
   color: #323232;
-  font-family: "proxima-nova",Helvetica,Arial,sans-serif;
-  font-size: 16px;
+  font-family: "proxima-nova",Helvetica,Arial,sans-serif !important;
+  font-size: 16px !important;
   font-weight: 400;
   line-height: 27px;
 }
