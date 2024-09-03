@@ -302,7 +302,6 @@ form.elq-form .col-xs-12 {
 
 .row.row-3 .elq-button-cell a {
     border: 1px solid #3b6379;
-    border-radius: 5px;
     display: inline-block;
     font-family: proxima-nova, Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -320,7 +319,7 @@ form.elq-form .col-xs-12 {
 }
 
 .row.row-3 .elq-button-cell a:after, .row.row-3 .elq-button-cell a:before {
-    border-radius: 5px;
+    border-radius: 4px;
     bottom: 0;
     content: "";
     height: 100%;
