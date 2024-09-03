@@ -303,7 +303,6 @@ form.elq-form .col-xs-12 {
 .row.row-3 .elq-button-cell a {
     border: 1px solid #3b6379;
     border-radius: 5px;
-    color: #3b6379;
     display: inline-block;
     font-family: proxima-nova, Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -314,6 +313,10 @@ form.elq-form .col-xs-12 {
     text-transform: uppercase;
     transition: all .3s;
     z-index: 1;
+}
+
+.row.row-3 .elq-button-cell a span {
+    color: #3b6379 !important;
 }
 
 .row.row-3 .elq-button-cell a:after, .row.row-3 .elq-button-cell a:before {
@@ -338,7 +341,7 @@ form.elq-form .col-xs-12 {
     z-index: -2;
 }
 
-.row.row-3 .elq-button-cell a:hover {
+.row.row-3 .elq-button-cell a:hover span {
     color: #fff !important;
 }
 
