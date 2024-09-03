@@ -248,3 +248,23 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-shadow: 0 2px 9px 0 rgba(0,0,0,.25) !important;
     -moz-box-shadow: 0 2px 9px 0 rgba(0,0,0,.25) !important;
 }
+
+
+/* ==============================
+JUSTIN RODRIGO CODES - TO BE ORGANIZED SOON LOL
+============================== */
+
+/* LOGO */
+.row.row-0 {
+    display: none;
+}
+
+@media (min-width: 521px) {
+    .row.row-0 {
+        display: block;
+    }
+
+    .elq-code-cell.cell.cell-0 {
+        display: none;
+    }
+}
