@@ -231,12 +231,12 @@ h1, h2, h3, h4, h5, h6 {
    right: -10px !important;
 }
 .ot-sdk-show-settings {
-    font-size: 10px !important;
     padding: 0 !important;
-    border: none !important;
-    color: rgb(166, 166, 166) !important;
-    text-decoration: underline !important;
-    background-color: #fff;
+    border: 0 !important;
+    background: none;
+    color: #fff !important;
+    font-size: 16px !important;
+    text-decoration: underline;
 }
 
 
@@ -351,4 +351,12 @@ form.elq-form .col-xs-12 {
 /* FOOTER */
 .row.row-15 .elq-code-cell {
     text-align: center;
+}
+
+.row.row-15 .elq-code-cell p, .row.row-15 .elq-code-cell a {
+    color: #fff;
+}
+
+.row.row-15 .elq-code-cell a {
+    text-decoration: underline;
 }
