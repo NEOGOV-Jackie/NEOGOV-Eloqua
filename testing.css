@@ -277,7 +277,7 @@ JUSTIN RODRIGO CODES - TO BE ORGANIZED SOON LOL
     }
 }
 
-/* TWO COLUMN */
+/* BANNER */
 form .layout.container-fluid {
     padding: 0;
 }
@@ -292,4 +292,10 @@ form .col-sm-12.col-xs-12 {
 
 form.elq-form .col-xs-12 {
     padding: 0;
+}
+
+/* TWO COLUMN - IMAGE */
+.row.row-3 .elq-image-cell {
+    max-width: 300px !important;
+    margin: auto;
 }
