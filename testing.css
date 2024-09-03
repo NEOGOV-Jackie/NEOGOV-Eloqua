@@ -347,3 +347,8 @@ form.elq-form .col-xs-12 {
 .row.row-3 .elq-button-cell a:hover:before {
     width: 100%;
 }
+
+/* FOOTER */
+.row.row-15 .elq-code-cell {
+    text-align: center;
+}
