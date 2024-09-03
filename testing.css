@@ -357,6 +357,16 @@ form.elq-form .col-xs-12 {
     color: #fff;
 }
 
+.row.row-15 .elq-code-cell p {
+    margin: 0;
+}
+
 .row.row-15 .elq-code-cell a {
     text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .row.row-15 .elq-code-cell {
+        text-align: right;
+    }
 }
