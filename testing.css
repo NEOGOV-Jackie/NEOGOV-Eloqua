@@ -294,8 +294,54 @@ form.elq-form .col-xs-12 {
     padding: 0;
 }
 
-/* TWO COLUMN - IMAGE */
+/* TWO COLUMN - IMAGE AND BUTTON */
 .row.row-3 .elq-image-cell {
     max-width: 300px !important;
     margin: auto;
+}
+
+.row.row-3 .elq-button-cell a {
+    border: 1px solid #3b6379;
+    border-radius: 5px;
+    color: #3b6379;
+    display: inline-block;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: .2px;
+    overflow: hidden;
+    padding: .75rem 1.25rem;
+    position: relative;
+    text-transform: uppercase;
+    transition: all .3s;
+    z-index: 1;
+}
+
+.row.row-3 .elq-button-cell a:after, .row.row-3 .elq-button-cell a:before {
+    border-radius: 5px;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+}
+
+.row.row-3 .elq-button-cell a:before {
+    background-color: #3aaecd;
+    transition: all .3s;
+    width: 0;
+    z-index: -1;
+}
+
+.row.row-3 .elq-button-cell a:after {
+    background-color: transparent;
+    width: 100%;
+    z-index: -2;
+}
+
+.row.row-3 .elq-button-cell a:hover {
+    color: #fff !important;
+}
+
+.row.row-3 .elq-button-cell a:hover:before {
+    width: 100%;
 }
