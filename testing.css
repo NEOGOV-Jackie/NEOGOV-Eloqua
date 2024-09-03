@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000 !important;
   margin: 0 !important;
   background-color: #FFF !important;
-  border: 3px solid #C7C6C6 !important;
+  border: 1px solid #C7C6C6 !important;
   border-radius: 6px !important;
   padding: 0.5rem !important;
 }
@@ -175,13 +175,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px 0 10px 0!important;
   color: #fff !important;
   background-color: #3b6379 !important;
-  border: 4px solid #fff !important;
+  border: 1px solid #fff !important;
   border-radius: 6px;
   font-weight: bold !important;
   text-transform: uppercase !important;
   letter-spacing: 1px !important;
   padding: 5 10px !important;
-  transition: background-color 0.3 ease, color 0.3 ease, border-color 0.3 ease;
+  transition: background-color 0.3 ease, color 0.3 ease, border-color 0.3 ease !important;
 }
 .submit-button-style:hover {
   background-color: #fff !important;
@@ -254,6 +254,14 @@ h1, h2, h3, h4, h5, h6 {
 JUSTIN RODRIGO CODES - TO BE ORGANIZED SOON LOL
 ============================== */
 
+/* GENERAL */
+@media (min-width: 1200px) {
+    .row {
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+    }
+}
+
 /* LOGO */
 .row.row-0 {
     display: none;
@@ -267,4 +275,21 @@ JUSTIN RODRIGO CODES - TO BE ORGANIZED SOON LOL
     .elq-code-cell.cell.cell-0 {
         display: none;
     }
+}
+
+/* TWO COLUMN */
+form .layout.container-fluid {
+    padding: 0;
+}
+
+form .layout-col.col-sm-12.col-xs-12 {
+    padding: 0;
+}
+
+form .col-sm-12.col-xs-12 {
+    padding: 0;
+}
+
+form.elq-form .col-xs-12 {
+    padding: 0;
 }
