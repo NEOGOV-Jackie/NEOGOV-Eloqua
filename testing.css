@@ -300,6 +300,11 @@ form.elq-form .col-xs-12 {
     margin: 0;
 }
 
+.elq-image-cell {
+    max-width: 300px;
+    margin: auto;
+}
+
 .elq-button-cell a {
     border: 1px solid #3b6379;
     display: inline-block;
