@@ -300,7 +300,7 @@ form.elq-form .col-xs-12 {
     margin: auto;
 }
 
-.row.row-3 .elq-button-cell a {
+.elq-button-cell a {
     border: 1px solid #3b6379;
     display: inline-block;
     font-family: proxima-nova, Helvetica, Arial, sans-serif;
@@ -314,11 +314,11 @@ form.elq-form .col-xs-12 {
     z-index: 1;
 }
 
-.row.row-3 .elq-button-cell a span {
+.elq-button-cell a span {
     color: #3b6379 !important;
 }
 
-.row.row-3 .elq-button-cell a:after, .row.row-3 .elq-button-cell a:before {
+.elq-button-cell a:after, .elq-button-cell a:before {
     border-radius: 4px;
     bottom: 0;
     content: "";
@@ -327,24 +327,24 @@ form.elq-form .col-xs-12 {
     position: absolute;
 }
 
-.row.row-3 .elq-button-cell a:before {
+.elq-button-cell a:before {
     background-color: #3aaecd;
     transition: all .3s;
     width: 0;
     z-index: -1;
 }
 
-.row.row-3 .elq-button-cell a:after {
+.elq-button-cell a:after {
     background-color: transparent;
     width: 100%;
     z-index: -2;
 }
 
-.row.row-3 .elq-button-cell a:hover span {
+.elq-button-cell a:hover span {
     color: #fff !important;
 }
 
-.row.row-3 .elq-button-cell a:hover:before {
+.elq-button-cell a:hover:before {
     width: 100%;
 }
 
