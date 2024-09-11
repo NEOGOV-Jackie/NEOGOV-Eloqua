@@ -374,6 +374,11 @@ form.elq-form .col-xs-12 {
     .elq-code-cell {
         text-align: right;
     }
+
+    .row {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .LV_invalid {
