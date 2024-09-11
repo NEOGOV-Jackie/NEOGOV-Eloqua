@@ -295,9 +295,9 @@ form.elq-form .col-xs-12 {
 }
 
 /* TWO COLUMN - IMAGE AND BUTTON */
-:not(.row-0) .elq-image-cell {
-    max-width: 300px !important;
-    margin: auto;
+.row-0 .elq-image-cell {
+    max-width: none;
+    margin: 0;
 }
 
 .elq-button-cell a {
