@@ -117,8 +117,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .column {
-  padding-left: 5% !important;
-  padding-right: 5% !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
 }
 
 .hcm-button {
