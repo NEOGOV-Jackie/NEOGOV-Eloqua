@@ -295,7 +295,7 @@ form.elq-form .col-xs-12 {
 }
 
 /* TWO COLUMN - IMAGE AND BUTTON */
-.row.row-3 .elq-image-cell {
+.elq-image-cell {
     max-width: 300px !important;
     margin: auto;
 }
@@ -349,24 +349,24 @@ form.elq-form .col-xs-12 {
 }
 
 /* FOOTER */
-.row.row-15 .elq-code-cell {
+.elq-code-cell {
     text-align: center;
 }
 
-.row.row-15 .elq-code-cell p, .row.row-15 .elq-code-cell a {
+.elq-code-cell p, .elq-code-cell a {
     color: #fff;
 }
 
-.row.row-15 .elq-code-cell p {
+.elq-code-cell p {
     margin: 0;
 }
 
-.row.row-15 .elq-code-cell a {
+.elq-code-cell a {
     text-decoration: underline;
 }
 
 @media (min-width: 768px) {
-    .row.row-15 .elq-code-cell {
+    .elq-code-cell {
         text-align: right;
     }
 }
