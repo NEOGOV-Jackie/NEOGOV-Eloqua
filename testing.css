@@ -370,3 +370,7 @@ form.elq-form .col-xs-12 {
         text-align: right;
     }
 }
+
+.LV_invalid {
+    color: #ffde38;
+}
