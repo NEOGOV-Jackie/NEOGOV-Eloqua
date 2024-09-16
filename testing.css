@@ -205,6 +205,32 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+.submit-button-style:after, .submit-button-style:before {
+    border-radius: 4px;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+}
+
+.submit-button-style:before {
+    background-color: #3aaecd;
+    transition: all .3s;
+    width: 0;
+    z-index: -1;
+}
+
+.submit-button-style:after {
+    background-color: transparent;
+    width: 100%;
+    z-index: -2;
+}
+
+.submit-button-style:hover:before {
+    width: 100%;
+}
+
 
 /* --- special functions --- */
 
