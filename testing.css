@@ -173,23 +173,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px !important;
   font-size: 16px !important;
 }
-/*.submit-button-style {
-  margin: 20px 0 10px 0!important;
-  color: #fff !important;
-  background-color: #3b6379 !important;
-  border: 1px solid #fff !important;
-  border-radius: 6px;
-  font-weight: bold !important;
-  text-transform: uppercase !important;
-  letter-spacing: 1px !important;
-  transition: background-color 0.3 ease, color 0.3 ease, border-color 0.3 ease !important;
-}
-
-.submit-button-style:hover {
-  background-color: #fff !important;
-  border-color: #3b6379 !important;
-  color: #3b6379 !important;
-}*/
 
 .submit-button-style {
     border: 1px solid #fff;
