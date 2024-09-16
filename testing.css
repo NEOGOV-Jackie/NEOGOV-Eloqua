@@ -189,6 +189,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #3b6379 !important;
 }*/
 
+.submit-button-style {
+    border: 1px solid #fff;
+    /* display: inline-block; */
+    /* font-family: proxima-nova, Helvetica, Arial, sans-serif; */
+    font-size: 16px !important;
+    letter-spacing: .2px;
+    overflow: hidden;
+    padding: .75rem 1.25rem;
+    position: relative;
+    text-transform: uppercase;
+    transition: all .3s;
+    z-index: 1;
+    background-color: transparent;
+    color: #fff;
+}
 
 
 /* --- special functions --- */
