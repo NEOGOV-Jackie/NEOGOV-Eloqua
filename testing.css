@@ -406,3 +406,7 @@ form.elq-form .col-xs-12 {
     font-weight: 600;
     letter-spacing: .03em;
 }
+
+.container-fluid > .row:last-of-type img {
+    width: 160px !important;
+}
