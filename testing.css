@@ -75,7 +75,7 @@
 
 	.elq-text-cell h2 {
 		font-size: 34px;
-		font-weight: 500;
+		font-weight: 700;
 		line-height: 44px;
 		margin-bottom: 9px;
 		margin-top: 12px;
@@ -85,7 +85,7 @@
 
 	.elq-text-cell h3 {
 		font-size: 30px;
-		font-weight: 500;
+		font-weight: 700;
 		line-height: 30px;
 		margin-bottom: 12px;
 		color: #3b6379;
@@ -94,7 +94,7 @@
 	.elq-text-cell h4 {
 		color: #4f4d4c;
 		font-size: 24px;
-		font-weight: 500;
+		font-weight: 700;
 		line-height: 24px;
 		margin-bottom: 12px;
 		color: #3b6379;
@@ -103,7 +103,7 @@
 	.elq-text-cell h5 {
 		color: #4f4d4c;
 		font-size: 20px;
-		font-weight: 500;
+		font-weight: 700;
 		line-height: 22px;
 		margin-bottom: 7px;
 		color: #3b6379;
