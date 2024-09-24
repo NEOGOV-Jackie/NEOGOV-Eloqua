@@ -70,6 +70,7 @@
 		letter-spacing: .2px;
 		line-height: 55px;
 		margin-bottom: 10px;
+		color: #3b6379;
 	}
 
 	.elq-text-cell h2 {
@@ -79,6 +80,7 @@
 		margin-bottom: 9px;
 		margin-top: 12px;
 		letter-spacing: .2px;
+		color: #3b6379;
 	}
 
 	.elq-text-cell h3 {
@@ -86,6 +88,7 @@
 		font-weight: 500;
 		line-height: 30px;
 		margin-bottom: 12px;
+		color: #3b6379;
 	}
 
 	.elq-text-cell h4 {
@@ -94,6 +97,7 @@
 		font-weight: 500;
 		line-height: 24px;
 		margin-bottom: 12px;
+		color: #3b6379;
 	}
 
 	.elq-text-cell h5 {
@@ -102,6 +106,7 @@
 		font-weight: 500;
 		line-height: 22px;
 		margin-bottom: 7px;
+		color: #3b6379;
 	}
 
 	.elq-text-cell h6 {
@@ -112,6 +117,7 @@
 		margin-bottom: 10px;
 		margin-top: 8px;
 		text-transform: uppercase;
+		color: #3b6379;
 	}
 
 	.elq-img-cell img {
@@ -319,7 +325,7 @@ form.elq-form .col-xs-12 {
 
 /* TWO COLUMN - IMAGE AND BUTTON */
 .row-0 .elq-image-cell {
-	max-width: none;
+	max-width: 950px;
 	margin: 0;
 }
 
