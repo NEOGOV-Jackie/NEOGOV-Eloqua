@@ -136,6 +136,7 @@ a {
   padding-left: 5% !important;
   padding-right: 5% !important;
 }
+.btn-class {font-size: 14px;}
 
 .hcm-button {
   width: auto !important; 
