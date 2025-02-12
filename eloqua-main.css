@@ -243,6 +243,9 @@ a {
 
 
 /* --- special functions --- */
+.row-2 {
+  background-size: cover !important;
+}
 
 .banner-arrow {
   fill: white;
