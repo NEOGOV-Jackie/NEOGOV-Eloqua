@@ -43,7 +43,7 @@ font-display:fallback;font-style:italic;font-weight:400;font-stretch:normal;
 .elq-text-cell h2, 
 .elq-text-cell h3, 
 .elq-text-cell h4, 
-.elq-text-cellh5, 
+.elq-text-cell h5, 
 .elq-text-cell h6, 
 .elq-text-cell a, 
 .elq-text-cell p, 
@@ -51,7 +51,19 @@ font-display:fallback;font-style:italic;font-weight:400;font-stretch:normal;
 .elq-text-cell input, 
 .elq-text-cell form, 
 .elq-text-cell label, 
-.elq-text-cell button {
+.elq-text-cell button,
+.elq-dynamic-content-cell body,
+.elq-dynamic-content-cell h1,
+.elq-dynamic-content-cell h2, 
+.elq-dynamic-content-cell h3,
+.elq-dynamic-content-cell h4,
+.elq-dynamic-content-cell h5,
+.elq-dynamic-content-cell h6,
+.elq-dynamic-content-cell p,
+.elq-dynamic-content-cell span,
+.elq-dynamic-content-cell form,
+.elq-dynamic-content-cell label,
+.elq-dynamic-content-cell button{
 font-family: "Nunito Sans", helvetica, arial, sans-serif !important;
 font-weight: 400;
 font-style: normal !important;
