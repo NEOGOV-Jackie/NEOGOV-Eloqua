@@ -69,15 +69,18 @@ font-weight: 400;
 font-style: normal !important;
   -webkit-font-smoothing: antialiased;
 }
-.elq-text-cell body, 
-.elq-text-cell p {
+.elq-text-cell body,
+.elq-dynamic-content-cell body,
+.elq-text-cell p,
+.elq-dynamic-content-cell p {
   color: #323232;
   font-family: "Nunito Sans",Helvetica,Arial,sans-serif !important;
   font-size: 16px !important;
   font-weight: 400;
   line-height: 27px;
 }
-.elq-text-cell {
+.elq-text-cell,
+.elq-dynamic-content-cell {
     color: #323232;
   font-family: "Nunito Sans",Helvetica,Arial,sans-serif !important;
   font-size: 16px;
@@ -93,13 +96,20 @@ a {
 .elq-text-cell h3, 
 .elq-text-cell h4, 
 .elq-text-cell h5, 
-.elq-text-cell h6 {
+.elq-text-cell h6,
+.elq-dynamic-content-cell h1, 
+.elq-dynamic-content-cell h2, 
+.elq-dynamic-content-cell h3, 
+.elq-dynamic-content-cell h4, 
+.elq-dynamic-content-cell h5, 
+.elq-dynamic-content-cell h6 {
     color: ##323232;
     font-family: "Nunito Sans",Helvetica,Arial,sans-serif !important;
     letter-spacing: -0.5px;
     margin: 0;
 }
-.elq-text-cell h1 {
+.elq-text-cell h1,
+.elq-dynamic-content-cell h1{
     display: block;
     color: #3b6379;
     font-size: 48px;
@@ -108,7 +118,8 @@ a {
     line-height: 55px;
     margin-bottom: 10px;
   }
-.elq-text-cell h2 {
+.elq-text-cell h2,
+.elq-dynamic-content-cell h2{
     font-size: 34px;
     font-weight: 700;
     line-height: 44px;
@@ -116,27 +127,31 @@ a {
     margin-top: 12px;
     letter-spacing: .2px;
 }
-.elq-text-cell h3 {
+.elq-text-cell h3,
+.elq-dynamic-content-cell h3{
     font-size: 30px;
     font-weight: 600;
     line-height: 30px;
     margin-bottom: 12px;
 }
-.elq-text-cell h4 {
+.elq-text-cell h4,
+.elq-dynamic-content-cell h4 {
     color: #4f4d4c;
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
     margin-bottom: 12px;
 }
-.elq-text-cell h5 {
+.elq-text-cell h5,
+.elq-dynamic-content-cell h5{
     color: #4f4d4c;
     font-size: 20px;
     font-weight: 500;
     line-height: 22px;
     margin-bottom: 7px;
 }
-.elq-text-cell h6 {
+.elq-text-cell h6,
+.elq-dynamic-content-cell h6{
     color: #424e56;
     font-size: 16px;
     font-weight: 700;
@@ -145,7 +160,8 @@ a {
     margin-top: 8px;
     text-transform: uppercase;
 }
-.elq-img-cell img {
+.elq-img-cell img,
+.elq-dynamic-content-cell img {
   width: 100%;
   height: auto;
 }
